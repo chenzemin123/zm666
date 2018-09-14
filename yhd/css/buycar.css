@@ -1,0 +1,47 @@
+body{
+	background-color: #F8F8F8;
+}
+section{
+	width: 550px;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.img{
+	float: left;
+}
+.info{
+	float: left;
+	padding-top: 100px;
+}
+.info p{
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 5px;
+	font-family: 'sumhei';
+	color: ;
+}
+.btn_box{
+	padding-top: 25px;
+}
+.btn_box a{
+	display: block;
+	float: left;
+	font-size: 13px;
+	width: 75px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;	
+	margin: 0 5px;
+	border-radius: 2px;
+}
+.btn_login{
+	border: 1px solid #ff5e5e;
+	background-color: #ff6c6c;
+	color: white;
+}
+.btn_index{
+	border: 1px solid #E5E5E5;
+	background: white;
+	color: #333;
+}

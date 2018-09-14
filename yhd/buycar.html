@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/yhd.css"/>
+		<link rel="stylesheet" type="text/css" href="css/buycar.css"/>
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/yhd.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--顶部导航条-->
+		<div class="top-bar">
+			<div class="top-bar-main">
+				<!--导航左边-->
+				<div class="tb-left">
+					<a href="#">送货地址：上海</a>
+				</div>
+				<!--导航右边-->
+				<div class="tb-right">
+					<ul>
+						<li class="tb-li-fist tb-li-login">
+							<span>你好!请</span>
+							<a class="tb-login" href="login.html">登录</a>
+							<a class="tb-regiest" href="register.html">免费注册</a>							
+						</li>
+						<span style="float: left;">|</span>
+						<li class="tb-li-fist">
+							<a href="#">我的订单</a>
+						</li>
+						<span style="float: left;">|</span>
+						<li class="tb-li-fist">
+							<a href="#">收藏夹</a>
+						</li>
+						<li class="tb-li-fist tb-li-service">
+							<a class="li-service" href="#">客户服务</a>
+							<ul class="tb-ul-second">
+								<li class="tb-li-second"><a href="#">包裹跟踪</a></li>
+								<li><a href="#">在线退换货</a></li>
+							</ul>
+						</li>
+						<li class="tb-li-fist">
+							<a href="#">网站导航</a>
+						</li>
+						<span style="float: left;">|</span>
+						<li class="tb-li-fist tb-follow">
+							关注我们
+							<img src="images/sh1.png">&nbsp;&nbsp;
+							<img src="images/sh2.png">													
+						</li>
+						<span style="float: left;">|</span>
+						<li class="tb-li-fist tb-li-mob">
+							<a href="#">手机版</a>
+							<div class="app-code">
+								<p>扫描二维码</p>
+								<p>下载1号店APP</p>
+								<a href="//app.yhd.com">
+									<img src="//img.yihaodianimg.com/front-homepage/index/images/qryhd.png">
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<!--头部-->
+		<header>
+			<div class="header">
+				<!--头部左边区-->
+				<div class="hd-left">
+					<a class="hd-logo" href="#"></a>
+				</div>
+				<!--头部搜索区-->
+				<div class="hd-search">
+					<input class="txtsearch" type="text" id="" placeholder="请输入关键字" />
+					<input class="subsearch" type="submit" id="" name="" value="搜索"/>
+					<ul>
+						<li><a href="#">咖啡</a></li>
+						<li><a href="#">iphone 6S</a></li>
+						<li><a href="#">新鲜美食</a></li>
+						<li><a href="#">蛋糕</a></li>
+						<li><a href="#">日用品</a></li>
+					</ul>
+				</div>
+				<!--头部右边区-->
+				<div class="hd-right">
+					<a href="buycar.html">购物车</a>
+					<!--购物车-->
+					<div class="buycar">
+						<div class="buycar-shop">
+							<div class="buycar-title">
+								<h4>1号店满199减100<span>共1件商品</span></h4>				
+							</div>
+							<div class="buycar-main">
+								<div class="buycar-lf">
+									<img src="images/shop1.png"/>
+								</div>
+								<div class="buycar-rg">
+									<p>宝贝许愿坊  童装女孩套装<span class="buycar-delect">x</span></p>
+									<p>深蓝 140码</p>
+									<span class="buycar-minus">-</span>
+									<span class="buycar-num">1</span>
+									<span class="buycar-plus">+</span>
+									<div class="buycar-price">￥<span>190</span></div>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
+							<div class="buycar-foot">
+								<p>参加一项促销，节约成本￥100</p>
+							</div>
+							<div style="clear: both;"></div>
+						</div>	
+						<div class="buycar-shop">
+							<div class="buycar-title">
+								<h4>1号店<span>共1件商品</span></h4>				
+							</div>
+							<div class="buycar-main">
+								<div class="buycar-lf">
+									<img src="images/shop2.png"/>
+								</div>
+								<div class="buycar-rg">
+									<p>亨氏  乐维滋清乐2*2果汁<span class="buycar-delect">x</span></p>
+									<p>蓝莓山楂枸杞</p>
+									<span class="buycar-minus">-</span>
+									<span class="buycar-num">1</span>
+									<span class="buycar-plus">+</span>
+									<div class="buycar-price">￥<span>5.8</span></div>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+						<div class="buycar-shop">
+							<div class="buycar-title">
+								<h4>珠韵首饰旗舰店<span>共1件商品</span></h4>				
+							</div>
+							<div class="buycar-main">
+								<div class="buycar-lf">
+									<img src="images/shop3.png"/>
+								</div>
+								<div class="buycar-rg">
+									<p>珠韵首饰 大粒径 9.5-1<span class="buycar-delect">x</span></p>
+									<p>淡水白色近圆珍珠</p>
+									<span class="buycar-minus">-</span>
+									<span class="buycar-num">1</span>
+									<span class="buycar-plus">+</span>
+									<div class="buycar-price">￥<span>758</span></div>
+								</div>
+								<div style="clear: both;"></div>
+							</div>
+							<div class="buycar-foot">全场包邮</div>
+							<div style="clear: both;"></div>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+			</div>	
+			<div style="clear: both;"></div>
+		</header>
+		<!--主内容-->
+		<section>
+			<div class="img"> 
+				<img src="//img.yihaodianimg.com/cart/shopping/pc/images/offline.gif" width="300" height="300"> 
+			</div>
+			<div class="info"> 
+				<p>购物车还是空的呢，快去采购吧~<br>或者登录查看之前加入的商品。</p> 
+				<div class="btn_box"> 
+					<a href="login.html" class="btn_login">登录</a> 
+					<a href="index.html" class="btn_index">去逛逛</a> 
+				</div> 
+			</div>
+			<div style="clear: both;"></div>
+		</section>
+	</body>
+</html>

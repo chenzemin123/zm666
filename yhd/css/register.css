@@ -1,0 +1,224 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+/*头部*/
+header{
+	width: 1214px;
+	height: 48px;
+	padding: 16px 75px;
+	background: #FFF;
+	border: 1px solid #e1e1e1;
+}
+.header-logo{
+	display: block;
+	float: left;
+	width: 54px;
+	height: 48px;
+}
+.header-rg{
+	float: right;
+	line-height: 18px;
+	font-family: "SimSun";
+	color: #999;
+	font-size: 12px;
+}
+.header-login{
+	display: block;
+	margin-top: 5px;
+	width: 310px;
+}
+a.blue_link:hover,.header-rg a:hover{
+	color: #C91B2B;
+}
+.header-help{
+	float: right;
+	position: relative;
+	margin-left: 25px;	
+}
+.header-help img{
+	vertical-align: middle;
+}
+a.help{
+	display: block;
+	width: 88px;
+	color: #000000;
+	padding-right: 18px;
+	padding: 3px 4px;
+	border: 1px solid #FFFFFF;
+	background: url(../images/turnb.png) no-repeat right 4px;
+}
+.a-help{
+	border: 1px solid #D7D7D7 !important;
+	border-bottom: 1px dotted #D7D7D7 !important; 
+}
+.header-help ul{
+	display: none;
+	position: absolute;
+	border: 1px solid #D7D7D7;
+	border-top: none;
+	background: white;
+}
+.header-help ul li{
+	height: 23px;
+	width: 96px;
+	line-height: 23px;
+	text-align: center;
+	border-bottom: 1px dotted #D7D7D7;	
+}
+
+/*主内容*/
+section{
+	/*position:relative;*/
+	border-bottom: 1px solid #f4f4f4;
+	background: #fcfcfc;
+	padding: 30px 0 40px;
+}
+/*背景图标*/
+.rg-bg{
+	position: absolute;
+	top: 27px;
+	left: 50%;
+	z-index: 120px;
+	width: 1200px;
+	height: 500px;
+	margin-left: -600px;
+}
+.icon1{
+	background: url(../images/rg-bg1.png) no-repeat;
+	opacity: .2;
+}
+.icon2{
+	background: url(../images/rg-bg2.png) no-repeat;
+	opacity: .05;
+}
+.icon3{
+	background: url(../images/rg-bg3.png) no-repeat;
+	opacity: .05;
+}
+.icon4{
+	background: url(../images/rg-bg4.png) no-repeat;
+	opacity: .05;
+}
+.icon5{
+	background: url(../images/rg-bg5.png) no-repeat;
+	opacity: .05;
+}
+/*注册区*/
+.rg-main{
+	width: 330px;	
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	margin: 15px 0px;
+}
+input{
+	position: relative;
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 288px;
+	line-height: 20px;
+	margin-top: 10px;
+	font-size: 14px;
+	padding: 0px 20px;
+	color: #666;
+	background-color: #fcfcfc;
+}
+.input{
+	position: relative;
+	width: 328px;
+	margin: 10px auto;
+	height: 50px;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+}
+.input span,.code span{
+	display: block;
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	color: #666;
+}
+.tip1,.error1{
+	position: absolute;
+	display: none;
+	left: 335px;
+	top: -6px;
+}
+.error-null,.tip2{
+	position: absolute;
+	display: none;
+	left: 337px;
+	top: 5px;
+}
+.code{
+	position: relative;
+	width: 194px ;
+	height: 50px;
+	float: left;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+}
+.code input{
+	width: 170px;
+	padding-right: 0px;
+}
+a.getcode{
+	display: block;
+	float: right;
+	width: 126px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #57565f;
+	text-align: center;
+	color: white;
+	border-radius: 2px;
+	font-size: 14px;	
+}
+
+.agreement-word{
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	color: #666;
+}
+a.btnregister{
+	display: block;
+	width: 330px;
+	height: 52px;
+	line-height: 52px;
+	background-color: #ff3c3c;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*页脚*/
+footer{
+	width: 980px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+footer a{
+	margin: 5px 5px;
+	color: #333;
+}
+footer a:hover{color: #C91B2B;}
